@@ -6,7 +6,8 @@ turtle.colormode(255)
 tim = turtle.Turtle()
 tim.shape('turtle')
 tim.speed("fastest")
-
+tim.pu()
+tim.hideturtle()
 appended_random_color = []
 generate_random_color = colorgram.extract('hirst color painting.jpg', 100)
 
@@ -25,10 +26,8 @@ def dotting(column, row, distance):
     for col in range(column):
         for rw in range(row):
             tim.color(random_color())
-            tim.dot(20)
-            tim.pu()
+            tim.dot(10)
             tim.fd(distance)
-            tim.pu()
 
         tim.backward(distance * row)
         tim.left(90)
@@ -36,6 +35,10 @@ def dotting(column, row, distance):
         tim.right(90)
 
 if __name__ == "__main__":
+    tim.setheading(225)
+    tim.pu()
+    tim.fd(200)
+    tim.setheading(0)
     dotting(6, 5, 50)
     screen = turtle.Screen()
     screen.exitonclick()
