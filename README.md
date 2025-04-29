@@ -1,9 +1,9 @@
-#🐢 Turtle Art Project
+**🐢 Turtle Art Project**
 
 This project uses the Python Turtle module to create beautiful artistic designs like dot paintings and spiral patterns.
 It extracts colors from an image using colorgram.py and randomly uses them to paint dynamic patterns.
 
-#Features
+**Features**
 
 🎨 Extracts real colors from images.
 
@@ -13,7 +13,7 @@ It extracts colors from an image using colorgram.py and randomly uses them to pa
 
 ⚡ Organized into multiple Python files for easy management.
 
-#Technologies
+**Technologies**
 
 Python 🐍
 
@@ -21,7 +21,7 @@ Turtle graphics
 
 Colorgram for color extraction
 
-#How to Run
+**How to Run**
 
 Make sure you have Python installed.
 
@@ -31,7 +31,7 @@ Run the picture.py to generate dot paintings.
 
 Run the spiral.py to generate colorful spirals.
 
-#Files
+**Files**
 
 picture.py → Extracts colors and draws dot paintings.
 
