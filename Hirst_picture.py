@@ -26,7 +26,7 @@ def dotting(column, row, distance):
     for col in range(column):
         for rw in range(row):
             tim.color(random_color())
-            tim.dot(10)
+            tim.dot(20)
             tim.fd(distance)
 
         tim.backward(distance * row)
